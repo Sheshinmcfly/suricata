@@ -3,7 +3,7 @@
 }
 
 h1 {
-    color: #707070;
+    color: inherit;
 }
 
 a{
@@ -16,6 +16,25 @@ a{
 
 .bg-color-texto {
     color: #373A3C;
+}
+
+/* Botones marca */
+.btn-pink {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #E83E8C;
+    --bs-btn-border-color: #E83E8C;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #c82d78;
+    --bs-btn-hover-border-color: #c82d78;
+}
+
+.btn-outline-pink {
+    --bs-btn-color: #E83E8C;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: #E83E8C;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #E83E8C;
+    --bs-btn-hover-border-color: #E83E8C;
 }
 
 nav img {
